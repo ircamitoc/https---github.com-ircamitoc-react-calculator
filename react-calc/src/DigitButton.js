@@ -1,3 +1,5 @@
+import { ACTIONS } from "./App"
+
 export default function DigitButon({dispatch, digit}) {
-    return <button onClick={() => dispatch()}>(digit)</button>
+    return <button onClick={() => dispatch({type: ACTIONS.ADD_DIGIT, payload: {digit}})}>(digit)</button>
 }
