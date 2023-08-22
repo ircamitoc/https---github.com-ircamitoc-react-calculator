@@ -22,6 +22,12 @@ body {
   background: rgba(255,255,255,.75);
 }
 
+.calculator-grid > button:hover,
+.calculator-grid > button:focus {
+  background: rgba(255,255,255,.9);
+}
+
+
 .span-two {
   grid-column: span 2;
 }
