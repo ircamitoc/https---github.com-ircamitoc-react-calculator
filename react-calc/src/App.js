@@ -1,5 +1,6 @@
 import { useReducer } from "react";
 import "./App.css";
+import DigitButton from "./DigitButton";
 
 export const ACTIONS = {
   ADD_DIGIT: "add-digit",
