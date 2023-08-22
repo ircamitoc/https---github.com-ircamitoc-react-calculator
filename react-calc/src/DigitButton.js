@@ -1,3 +1,3 @@
 export default function DigitButon({dispatch, digit}) {
-    return <button>(digit)</button>
+    return <button onClick={() => dispatch()}>(digit)</button>
 }
